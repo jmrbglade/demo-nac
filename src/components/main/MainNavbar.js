@@ -26,7 +26,7 @@ export const MainNavbar = () => {
                             <a className="hover:text-yellow-nac" href="#proyectos">PROYECTOS</a>
                             <a className="hover:text-yellow-nac" href="#clientes">CLIENTES</a>
                             <a className="hover:text-yellow-nac" href="#contacto">CONTACTO</a>
-                            <a className="text-xs w-16 text-center hover:text-yellow-nac" href="/">
+                            <a className="text-xs w-16 text-center hover:text-yellow-nac" href="#">
                                 Sistema de Gestión
                             </a>
                         </div>
@@ -59,7 +59,7 @@ export const MainNavbar = () => {
                     <a onClick={ () => { setOpen(false) } } className="text-white text-xl my-3" href="#proyectos">PROYECTOS</a>
                     <a onClick={ () => { setOpen(false) } } className="text-white text-xl my-3" href="#clientes">CLIENTES</a>
                     <a onClick={ () => { setOpen(false) } } className="text-white text-xl my-3" href="#contacto">CONTACTO</a>
-                    <a onClick={ () => { setOpen(false) } } className="text-white text-xl my-3" href="/">
+                    <a onClick={ () => { setOpen(false) } } className="text-white text-xl my-3" href="#">
                         Sistema de Gestión
                     </a>
                 </div>
